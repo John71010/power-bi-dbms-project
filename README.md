@@ -2,7 +2,9 @@
 
 ## Overview
 
-This repository contains the practical work completed for four experiments involving Microsoft Power BI, Power Query, DAX, MySQL, data profiling, ETL, dimensional modeling, and OLAP analysis.
+This repository contains the practical work completed for four experiments using Microsoft Power BI, Power Query, DAX, MySQL, Excel, and business datasets.
+
+The project covers data acquisition, data profiling, ETL processes, dimensional modeling, and OLAP analysis.
 
 ## Experiments
 
@@ -12,15 +14,21 @@ Data was acquired from multiple sources including CSV, Excel, and MySQL. Microso
 
 ### Experiment 2 – ETL Processes using Power BI
 
-An end-to-end ETL process was implemented using the Global Superstore dataset. Data was extracted from Orders, Returns, and People worksheets, transformed using Power Query, and loaded into the Power BI data model. DAX measures were created for analytical reporting.
+An end-to-end ETL process was implemented using the Global Superstore dataset. Data was extracted from the Orders, Returns, and People worksheets, transformed using Power Query, and loaded into the Power BI data model.
+
+DAX measures were also created for analytical reporting. Supporting PDF documentation and practical work are included in this folder.
 
 ### Experiment 3 – Dimensional Data Modeling
 
-A Star Schema was designed using Fact and Dimension tables. Fact_Sales was created along with Customer, Product, Region, and Date dimensions. Relationships were established and analytical visualizations and DAX measures were implemented.
+A Star Schema was designed using Fact and Dimension tables. Fact_Sales was created along with Customer, Product, Region, and Date dimensions.
+
+Relationships were established between the fact and dimension tables, followed by analytical visualizations and DAX measures.
 
 ### Experiment 4 – OLAP Operations
 
-OLAP operations including Slice, Dice, Drill-down, and Drill-up were performed using Microsoft Power BI. Multidimensional analysis was conducted using filters, slicers, hierarchies, and interactive report visualizations.
+OLAP operations including Slice, Dice, Drill-down, and Drill-up were performed using Microsoft Power BI.
+
+Multidimensional analysis was conducted using filters, slicers, hierarchies, and interactive report visualizations.
 
 ## Tools and Technologies
 
@@ -58,7 +66,8 @@ POWER BI DBMS PROJECT
 ├── EXPERIMENT 2
 │   ├── Experiment 2.docx
 │   ├── Global Superstore Dataset.xlsx
-│   └── Experiment 2_ETL.pbix
+│   ├── Experiment 2_ETL.pbix
+│   └── Supporting PDF files
 │
 ├── EXPERIMENT 3
 │   ├── Experiment 3.docx
