@@ -30,6 +30,27 @@ OLAP operations including Slice, Dice, Drill-down, and Drill-up were performed u
 
 Multidimensional analysis was conducted using filters, slicers, hierarchies, and interactive report visualizations.
 
+### Experiment 5 – Relational, Multidimensional and Interactive BI Reporting
+
+A comprehensive business intelligence report was developed using Microsoft Power BI.
+
+The experiment included:
+
+- Creation of a relational table report using Order ID, Customer Name, Product Name, Region, Sales, and Profit.
+- Sorting and filtering of business data.
+- Exporting filtered report data for analysis in Microsoft Excel.
+- Creation of a Region → State → City hierarchy.
+- Multidimensional analysis using a Matrix visual.
+- Drill-down and Drill-up operations.
+- Comparative analysis using Sales by Category, Profit by Region, Top 10 Customers by Sales, and Year-wise Sales Trend.
+- KPI Cards for Total Sales, Total Profit, and Total Orders.
+- Interactive slicers for Region, Category, and Year.
+- Development of an interactive business performance dashboard.
+
+### Lab MST
+
+The Lab MST folder contains the Power BI practical/project completed as part of the laboratory mid-semester assessment.
+
 ## Tools and Technologies
 
 - Microsoft Power BI Desktop
@@ -43,7 +64,7 @@ Multidimensional analysis was conducted using filters, slicers, hierarchies, and
 
 ## Dataset
 
-The Global Superstore dataset was used for Experiments 2, 3, and 4.
+The Global Superstore dataset was used for Experiments 2, 3, 4 and 5.
 
 Dataset source:
 
@@ -76,3 +97,9 @@ POWER BI DBMS PROJECT
 └── EXPERIMENT 4
     ├── Experiment 4.docx
     └── Experiment 4_OLAP.pbix
+    
+├── EXPERIMENT 5
+│   └── Experiment 5 files
+│
+└── LAB MST
+    └── Lab MST files
