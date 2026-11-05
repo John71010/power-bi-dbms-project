@@ -2,9 +2,9 @@
 
 ## Overview
 
-This repository contains the practical work completed for four experiments using Microsoft Power BI, Power Query, DAX, MySQL, Excel, and business datasets.
+This repository contains practical work completed across ten experiments using Microsoft Power BI, Power Query, DAX, MySQL, Excel, and business datasets.
 
-The project covers data acquisition, data profiling, ETL processes, dimensional modeling, and OLAP analysis.
+The project covers data acquisition, data profiling, ETL processes, dimensional modeling, OLAP analysis, interactive dashboards, business intelligence reporting, security, user access management, and BI deployment.
 
 ## Experiments
 
@@ -38,7 +38,7 @@ The experiment included:
 
 - Creation of a relational table report using Order ID, Customer Name, Product Name, Region, Sales, and Profit.
 - Sorting and filtering of business data.
-- Exporting filtered report data for analysis in Microsoft Excel.
+- Exporting filtered report data for analysis using Microsoft Excel.
 - Creation of a Region → State → City hierarchy.
 - Multidimensional analysis using a Matrix visual.
 - Drill-down and Drill-up operations.
@@ -46,6 +46,72 @@ The experiment included:
 - KPI Cards for Total Sales, Total Profit, and Total Orders.
 - Interactive slicers for Region, Category, and Year.
 - Development of an interactive business performance dashboard.
+
+### Experiment 6 – KPI Dashboard Development
+
+An interactive KPI dashboard was developed using Microsoft Power BI and the Global Superstore dataset.
+
+The experiment included:
+
+- Creation of KPI cards for Total Sales, Total Profit, Total Orders, and Profit Margin.
+- Sales analysis by Region and Category.
+- Monthly Sales Trend visualization.
+- Identification of Top 10 Customers by Sales.
+- Profit analysis by Segment.
+- Interactive slicers for filtering and exploring business data.
+- Development of an integrated business performance dashboard.
+
+### Experiment 7 – Business Insight Analysis and Reporting
+
+Business intelligence techniques were applied to analyze business performance and generate meaningful insights.
+
+The experiment included:
+
+- Analysis of business data using Power BI.
+- Identification of important business trends and patterns.
+- Development of business insight reports.
+- Preparation of executive presentations.
+- Generation of recommendations based on analytical findings.
+- Presentation of actionable business insights.
+
+### Experiment 8 – Monitoring, Recommendations and Report Scheduling
+
+Business performance monitoring and automated reporting concepts were explored using Power BI.
+
+The experiment included:
+
+- Development of monitoring and recommendation reports.
+- Analysis of business performance indicators.
+- Creation of report scheduling and distribution workflows.
+- Exploration of automated report delivery.
+- Development of a sales monitoring dashboard.
+- Preparation of supporting documentation.
+
+### Experiment 9 – BI Security Design and User Access Management
+
+Security and access management concepts were studied and documented for Business Intelligence environments.
+
+The experiment included:
+
+- Identification of organizational users and their information requirements.
+- Design of user roles and access permissions.
+- Study of authentication methods used in Power BI.
+- Development of security matrices.
+- Analysis of role-based access control.
+- Documentation of user access management procedures.
+
+### Experiment 10 – BI Deployment Planning and Distribution
+
+Business Intelligence deployment planning and distribution strategies were explored using Power BI.
+
+The experiment included:
+
+- Identification of BI assets created in previous experiments.
+- Planning the deployment of reports, dashboards, datasets, and workspaces.
+- Identification of organizational users and their access requirements.
+- Preparation of workspace role structures.
+- Planning BI asset distribution.
+- Documentation of deployment and monitoring procedures.
 
 ### Lab MST
 
@@ -60,11 +126,11 @@ The Lab MST folder contains the Power BI practical/project completed as part of 
 - Microsoft Excel
 - CSV
 - Visual Studio Code
-- GitHub
+- Git and GitHub
 
 ## Dataset
 
-The Global Superstore dataset was used for Experiments 2, 3, 4 and 5.
+The Global Superstore dataset was used for Experiments 2, 3, 4, 5, and 6.
 
 Dataset source:
 
@@ -77,29 +143,52 @@ POWER BI DBMS PROJECT
 │
 ├── README.md
 │
-├── EXPERIMENT 1
+├── Experiment 1/
 │   ├── BI_Experiment 1.docx
 │   ├── Employee_DB.xlsx
 │   ├── Exp 1_BI.pbix
 │   ├── Sales_Data.csv
 │   └── Transactions.sql
 │
-├── EXPERIMENT 2
+├── Experiment 2/
 │   ├── Experiment 2.docx
 │   ├── Global Superstore Dataset.xlsx
 │   ├── Experiment 2_ETL.pbix
 │   └── Supporting PDF files
 │
-├── EXPERIMENT 3
+├── Experiment 3/
 │   ├── Experiment 3.docx
 │   └── Experiment 3_Star_Schema.pbix
 │
-└── EXPERIMENT 4
-    ├── Experiment 4.docx
-    └── Experiment 4_OLAP.pbix
-    
-├── EXPERIMENT 5
+├── Experiment 4/
+│   ├── Experiment 4.docx
+│   └── Experiment 4_OLAP.pbix
+│
+├── Experiment 5/
 │   └── Experiment 5 files
 │
-└── LAB MST
+├── Experiment 6/
+│   ├── Experiment_6_KPI_Dashboard.pbix
+│   ├── Experiment_6_KPI_Dashboard.pdf
+│   └── Global Superstore 2018.xlsx
+│
+├── Experiment 7/
+│   └── Business Insight Analysis and Reporting files
+│
+├── Experiment 8/
+│   └── Monitoring, Recommendations and Scheduling files
+│
+├── Experiment 9/
+│   └── Security Design and User Access Management files
+│
+├── Experiment 10/
+│   └── BI Deployment and Distribution files
+│
+└── Lab MST/
     └── Lab MST files
+```
+
+## Version Control
+
+This project is maintained using Git and GitHub. Each experiment contains its corresponding practical files, reports, datasets, and supporting documentation.
+
