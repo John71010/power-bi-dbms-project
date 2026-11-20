@@ -6,6 +6,8 @@ This repository contains practical work completed across ten experiments using M
 
 The project covers data acquisition, data profiling, ETL processes, dimensional modeling, OLAP analysis, interactive dashboards, business intelligence reporting, security, user access management, and BI deployment.
 
+It also contains assignments, laboratory assessments, and additional practical work related to Business Intelligence and Database Analytics.
+
 ## Experiments
 
 ### Experiment 1 – Data Acquisition and Data Profiling
@@ -113,7 +115,23 @@ The experiment included:
 - Planning BI asset distribution.
 - Documentation of deployment and monitoring procedures.
 
-### Lab MST
+## Assignments
+
+The Assignment folder contains assignment-related work and Power BI project files.
+
+## Problem 2 – EST Practical
+
+The Problem 2 EST Practical folder contains the practical work, dataset, Power BI report, and supporting documentation.
+
+Included materials:
+
+- Global Superstore 2018 dataset.
+- Power BI report file.
+- Practical PDF documentation.
+- Word document.
+- Additional supporting PDF material.
+
+## Lab MST
 
 The Lab MST folder contains the Power BI practical/project completed as part of the laboratory mid-semester assessment.
 
@@ -130,7 +148,7 @@ The Lab MST folder contains the Power BI practical/project completed as part of 
 
 ## Dataset
 
-The Global Superstore dataset was used for Experiments 2, 3, 4, 5, and 6.
+The Global Superstore dataset was used for Experiments 2, 3, 4, 5, and 6, as well as additional practical work.
 
 Dataset source:
 
@@ -143,6 +161,9 @@ POWER BI DBMS PROJECT
 │
 ├── README.md
 │
+├── Assignment/
+│   └── Assign Bi JK.pbix
+│
 ├── Experiment 1/
 │   ├── BI_Experiment 1.docx
 │   ├── Employee_DB.xlsx
@@ -151,7 +172,7 @@ POWER BI DBMS PROJECT
 │   └── Transactions.sql
 │
 ├── Experiment 2/
-│   ├── Experiment 2.docx
+│   ├── EXP 2.docx
 │   ├── Global Superstore Dataset.xlsx
 │   ├── Experiment 2_ETL.pbix
 │   └── Supporting PDF files
@@ -184,11 +205,17 @@ POWER BI DBMS PROJECT
 ├── Experiment 10/
 │   └── BI Deployment and Distribution files
 │
-└── Lab MST/
-    └── Lab MST files
+├── Lab Mst 1 BI/
+│   └── Lab MST files
+│
+└── PROBLEM 2 EST Prac/
+    ├── Global Superstore 2018 (1).xlsx
+    ├── Problem 2 pd.pdf
+    ├── PROBLEM 2 WORD.docx
+    ├── PROBLEM 2.2.pdf
+    └── Problem 2.pbix
 ```
 
 ## Version Control
 
-This project is maintained using Git and GitHub. Each experiment contains its corresponding practical files, reports, datasets, and supporting documentation.
-
+This project is maintained using Git and GitHub. Each experiment contains its corresponding practical files, reports, datasets, and supporting documentation. Assignments and additional practical work are also maintained in the repository to track project development and updates.
